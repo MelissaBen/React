@@ -1,0 +1,93 @@
+body {
+  
+}
+.App {
+  text-align: center;
+  margin : 10px ; 
+  max-width: 400px;
+  margin: auto;
+  margin-top : 150px;
+  background-color:  #B0D0D3;
+  border: 3px black solid;
+  box-shadow: 10px 5px 5px grey;
+  
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.number{ 
+ width: 50px;
+ margin : 10px ; 
+ padding: 10px;
+ font-size: 20px;
+ 
+}
+
+.operator {
+  width: 100px;
+ margin : 10px ; 
+ padding: 10px;
+ font-size: 20px;
+ 
+}
+.modulo {
+  float: left;
+  width: 50px;
+  margin : 10px ; 
+  padding: 10px;
+  font-size: 15px;
+}
+
+h1 {
+  text-shadow: 2px 2px 8px #8093F1;
+  border-bottom: 2px solid black;
+  padding: 7px;
+  font-size: 30px;
+  font-style: italic;
+}
+
+ ul {
+  text-shadow: 2px 1px 2px pink;
+  font-size: 25px;
+  margin: 5px;
+  color: black ;
+  font-weight: bold;
+  font-style: italic;
+  margin: 20px ;
+  
+  
+}
+
